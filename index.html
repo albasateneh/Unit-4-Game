@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <title>Crystal Collector</title>
+</head>
+
+
+
+<body>
+    
+<div class="row">
+        <div class="col-md-4">
+               
+                    <h1>Crystal Collector!</h1>
+                    <hr>
+            
+                </div>
+            </div>
+        </div>
+            
+            <div class="row">
+            <div class="jumbotron col-md-4">
+                <div class="container">
+                    <p>You will be given a random number at the start of the game. There are four crystals below.
+                        By clicking on a crystal you will add a specific amount of points to your total score.
+                        You win the game by matching your total score to random number, you lose the game if
+                        your total score goes above the random number. The value of each crystal is hidden from
+                        you until you click on it. Each time when the game starts, the game will change the values
+                        of each crystal
+            
+                    </p>
+                </div>
+            </div>
+        </div>
+
+            <div>
+            
+            <div class="row-eq-height">
+            <div class="well col-md-2" >
+                    <div>
+                        <p id="targetScore"></p>
+                
+                    </div>
+                    
+                </div>
+                <div class="well col-md-2" >
+                        <div>
+                            <p id="winsCount"></p>
+                            <p id="lossesCount"></p>
+                    
+                        </div>
+            </div>
+            
+           
+            </div>
+            <div class="row">
+                    <div class="welljewels col-md-4">
+                        <img src="assets/images/blue.png" id="blue">
+                        <img src="assets/images/green.png" id="green">
+                        <img src="assets/images/red.png" id="red">
+                        <img src="assets/images/yellow.png" id="yellow">
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="well col-md-4 panel">
+                        <p id="yourScore"></p>
+                    </div>
+                </div>
+
+               
+            
+    <!----jQuery cdn---->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <!----Javastcipt cdn---->
+    <script src="./assets/javascript/game.js"></script>
+
+
+
+</body>
+
+</html>
